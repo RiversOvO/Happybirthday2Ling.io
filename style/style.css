@@ -228,7 +228,7 @@ body {
   font-weight: lighter;
 }
 
-/* .video-container {
+.video-container {
   height: auto;
   width: 100%;
   margin: 0 auto;
@@ -238,7 +238,7 @@ body {
   width: 100%; /* Fill the available width */
   height: auto; /* Adjust height automatically */
 }
- */
+
 #replay {
   z-index: 3;
   cursor: pointer;
