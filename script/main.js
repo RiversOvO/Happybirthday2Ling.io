@@ -139,7 +139,11 @@ const animationTimeline = () => {
       color: "#fff"
     })
     .to(".idea-3", 0.7, ideaTextTransLeave, "+=1.5")
-    // .from(".video-container video", 0.7, { opacity: 0 }, "+=1") // 显示视频
+    .from(".video-container video", 0.7, { opacity: 0 }) // 显示视频
+    .to(".video-container video", 0.7, { opacity: 0, onComplete: () => { // 隐藏视频
+      document.querySelector(".video-container video").pause();
+      document.querySelector(".video-container video").currentTime = 0;
+    }}, "+=30"); // 30秒后隐藏视频
     .from(".idea-4", 0.7, ideaTextTrans)
     .to(".idea-4", 0.7, ideaTextTransLeave, "+=1.5")
     .from(
