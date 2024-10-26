@@ -296,7 +296,7 @@ const animationTimeline = () => {
     .to(".video-container video", 0.7, { opacity: 0, onComplete: () => { // 隐藏视频
       document.querySelector(".video-container video").pause();
       document.querySelector(".video-container video").currentTime = 0;
-    }}, "+=30"); // 30秒后隐藏视频;
+    }}, "+=60"); // 60秒后隐藏视频;
 
   // tl.seek("currentStep");
   // tl.timeScale(2);
