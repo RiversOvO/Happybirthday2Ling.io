@@ -1,6 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
 
+<script>
+  videojs('video');
+</script>
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -36,12 +39,12 @@
         <span data-node-name="text4">I realised, I wanted to do something</span>
         <strong data-node-name="text4Adjective">special</strong>.</p>
       
-      <div class="video-container">
-        <video id="video" width="100%" controls>
-          <source src="dedicate2ling.mp4" type="video/mp4">
-          Your browser does not support the video tag.
-        </video>
-      </div>
+      <link href="https://vjs.zencdn.net/7.10.2/video-js.min.css" rel="stylesheet">
+      <script src="https://vjs.zencdn.net/7.10.2/video.min.js"></script>
+      
+      <video id="video" class="video-js" controls preload="auto" width="400" height="300">
+        <source src="dedicate2ling.mp4" type="video/mp4">
+      </video>
       
       <p class="idea-4" data-node-name="text5Entry">Because,</p>
       <p class="idea-5">
