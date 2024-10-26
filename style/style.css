@@ -5,6 +5,8 @@ html {
 body {
   margin: 0;
   font-family: "Work Sans", sans-serif;
+  background-color: #39FF14;
+  
 }
 
 .container {
@@ -80,7 +82,7 @@ body {
   right: 5px;
   bottom: 5px;
   color: #fff;
-  background-color: #39FF14;
+  background-color: rgb(21, 161, 237);
   padding: 5px 8px;
   border-radius: 3px;
 }
