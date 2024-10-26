@@ -292,11 +292,14 @@ const animationTimeline = () => {
       },
       "+=1"
     )    
-    .from(".video-container video", 0.7, { opacity: 0 }) // 显示视频
-    .to(".video-container video", 0.7, { opacity: 0, onComplete: () => { // 隐藏视频
-      document.querySelector(".video-container video").pause();
-      document.querySelector(".video-container video").currentTime = 0;
-    }}, "+=60"); // 60秒后隐藏视频;
+    .from(".video-container video", 0.7, { opacity: 0 })
+    .to(".video-container video", 0.7, {
+      opacity: 0,
+      onComplete: () => {
+        // Hide the video element after it finishes playing
+        document.querySelector(".video-container").style.display = "none";
+      }
+    }, "+=60"); // 60 seconds after the video becomes visible, hide it
 
   // tl.seek("currentStep");
   // tl.timeScale(2);
