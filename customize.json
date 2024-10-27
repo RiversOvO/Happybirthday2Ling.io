@@ -1,8 +1,8 @@
 {
-  "greeting": "中午好呀",
+  "greeting": "晚上好呀",
   "name": "玲宝",
   "greetingText": "今天是一个很特别很特别的日子呢",
-  "wishText": "愿时光能缓，愿故人不散，愿你独闯的日子不觉得孤单",
+  "wishText": "新的一岁，继续兴致盎然徜徉在布满鲜花的道路上",
   "imagePath": "img/ling_resized.jpg",
   "text1": "今天是...玲宝的生日!!!",
   "textInChatBox": "祝最勇敢，最聪明，最善良，最美丽的女孩玲宝生日快乐~",
@@ -16,8 +16,8 @@
   "smiley": ":3",
   "bigTextPart1": "那",
   "bigTextPart2": "么",
-  "wishHeading": "请保持坚定和热爱，依然能够为世间的那些美好而心动",
-  "outroText": "我会在日日夜夜的每个时刻，远隔山海，与你同在",
+  "wishHeading": "请坚守心中最初的那份热忱和纯粹，依然对世界的美好感到心动和惊艳",
+  "outroText": "在时光的每一个流转中，我的灵魂都与你共鸣，如繁星伴月，似涛声依岸，永恒不变",
   "replayText": "点这里可以再看一遍哦",
   "outroSmiley": ":D "
 }
